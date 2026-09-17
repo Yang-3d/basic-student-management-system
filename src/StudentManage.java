@@ -81,7 +81,7 @@ public class StudentManage {
     public void showAllStudents() {
         if (count == 0) {
             System.out.println("暂无学生信息");
-            return
+            return;
         }
         System.out.println("共有 " + count + " 名学生：");
         for (int i = 0; i < count; i++) {
